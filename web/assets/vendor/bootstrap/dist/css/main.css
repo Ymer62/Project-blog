@@ -1,0 +1,115 @@
+                            @import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+                            @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+                            body {
+                                background-image: url(../../../../img/parale.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                font-family: 'Open Sans', sans-serif;
+                                margin-top: 2%;
+                                margin: 0 auto;
+                            }
+                            
+                            .body {
+                                margin-left: auto;
+                                margin-right: auto;
+                                margin-top: 14%;
+                            }
+                            
+                            .titrepost {
+                                text-align: center;
+                            }
+                            
+                            .post {
+                                width: 30%;
+                                margin: auto;
+                            }
+                            
+                            section {
+                                height: calc(90% - 50px);
+                            }
+                            
+                            .affix {
+                                padding: 0px;
+                                -webkit-transition: padding 0.2s linear;
+                                -moz-transition: padding 0.2s linear;
+                                -o-transition: padding 0.2s linear;
+                                transition: padding 0.2s linear;
+                            }
+                            
+                            .affix-top {
+                                padding-top: 15px;
+                                padding-bottom: 15px;
+                                -webkit-transition: padding 0.5s linear;
+                                -moz-transition: padding 0.5s linear;
+                                -o-transition: padding 0.5s linear;
+                                transition: padding 0.5s linear;
+                            }
+                            
+                            //$$$$$$$$$$$$$$$$$$$ FOOTER $$$$$$$$$$$$$$$$$$$$$$$$$$//
+                            html {
+                                position: relative;
+                                min-height: 100%;
+                            }
+                            
+                            body {
+                                margin-bottom: 150px;
+                            }
+                            
+                            .footer {
+                                position: absolute;
+                                bottom: 0;
+                                width: 100%;
+                                height: 150px;
+                                background-color: #111;
+                                text-align: center;
+                            }
+                            
+                            .container {
+                                margin-top: 50px;
+                                color: #fff;
+                                width: 100%;
+                            }
+                            
+                            .fa-twitter {
+                                color: #4099FF;
+                            }
+                            
+                            .fa-facebook {
+                                color: #3B5998;
+                            }
+                            
+                            .fa-youtube-play {
+                                color: #e52d27;
+                            }
+                            
+                            .fa-rss {
+                                color: #FF6600;
+                            }
+                            
+                            .fa-vine {
+                                color: #00a478;
+                            }
+                            
+                            .fa-flickr {
+                                color: #ff0084;
+                            }
+                            
+                            .fa-twitch {
+                                color: #6441A5;
+                            }
+                            
+                            .fa-linkedin {
+                                color: #007bb6;
+                            }
+                            
+                            .fa {
+                                opacity: 0.7;
+                                transition: 1s;
+                                -webkit-transition: 1s;
+                            }
+                            
+                            .fa:hover {
+                                opacity: 1;
+                                transition: 1s;
+                                -webkit-transition: 1s;
+                            }

@@ -1,0 +1,29 @@
+{% trans_default_domain 'FOSUserBundle' %}
+<div class="body">
+<div class="alert alert-success">
+  <h1>S'enregistrer</h1>
+</div>
+
+<form action="{{ path('fos_user_registration_register') }}" class="connexion col-md-4 col-md-offset-4" method="POST">
+<div class="form-group">
+    {{ form_widget(form.email, { 'attr': {'class': 'form-control', 'placeholder': 'Adresse email' } }) }}
+    {{ form_errors(form.email) }}
+</div>
+<div class="form-group">
+    {{ form_widget(form.username, { 'attr': {'class': 'form-control', 'placeholder': 'Pseudo' } }) }}
+    {{ form_errors(form.username) }}
+</div>
+<div class="form-group">
+    {{ form_widget(form.plainPassword.first, { 'attr': {'class': 'form-control', 'placeholder': 'Mot de passe' } }) }}
+    {{ form_errors(form.plainPassword.first) }}
+</div>
+<div class="form-group">
+    {{ form_widget(form.plainPassword.second, { 'attr': {'class': 'form-control', 'placeholder': 'Confirmation mot de passe' } }) }}
+    {{ form_errors(form.plainPassword.second) }}
+</div>
+    {{ form_rest(form) }}
+<div>
+    <input type="submit" value="S'enregistrer" />
+</div>
+</form>
+</div>

@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="container">
+  <div class="row">
+<div class="alert alert-success">
+  <h1>Creer un article</h1>
+  <a href="{{ path('post_index') }}"> <button type="button"><i class="fa fa-undo" aria-hidden="true"></i> Retour</button></a>
+</div>
+
+<div class="well">
+  {{ form_start(form) }}
+      {{ form_widget(form) }}
+      <input type="submit" value="Creer" />
+  {{ form_end(form) }}
+</div>
+
+
+
+  </div><!--Row -->
+  </div><!--container-->
+{% endblock %}
